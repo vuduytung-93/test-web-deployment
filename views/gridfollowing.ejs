@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="node_modules/gridstack/dist/gridstack.all.js"></script>
+    <link href="node_modules/gridstack/dist/gridstack.min.css" rel="stylesheet" />
+    <script>
+        var grid = GridStack.init();
+        grid.addWidget({
+            width: 2,
+            content: 'item 1'
+        });
+    </script>
+    <style type="text/css">
+        .grid-stack {
+            background: #FAFAD2;
+        }
+
+        .grid-stack-item-content {
+            background-color: #18BC9C;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-stack"></div>
+</body>
+
+</html>
